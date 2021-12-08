@@ -1,19 +1,39 @@
-#title:hover {
-	color: #dddd66;
+#title {
+	display: inline-block;
+	background-color: #aaa;
+	padding: 0.35em;
+	height: 3em;
+	width: 7em;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 0.7em;
 }
 
 #maps {
-	width: 30vw;
-	height: 45vh;
+	width: 20em;
+	height: 25em;
+}
+
+.head-list{
+	display: inline-block;
 }
 
 * {
-	font-size: 1.3vw;
+	font-size: 0.98em;
 }
 .head-list__element {
-	display: inline;
+	background-color: #ccc;
+	display: inline-block;
+	border: 0.1em solid #888;
+	border-radius: 0.5em;
+	margin: 0.2vw;
+	height: 1.8em;
+	padding: 0.2em 0.5em;
+	text-align: center;
 }
 
 #logo {
-	width: 20vw;
+	width: 25vw;
+	margin: 1em;
+	border-radius: 0.3em;
 }
