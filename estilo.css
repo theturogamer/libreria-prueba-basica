@@ -1,0 +1,19 @@
+#title:hover {
+	color: #dddd66;
+}
+
+#maps {
+	width: 30vw;
+	height: 45vh;
+}
+
+* {
+	font-size: 1.3vw;
+}
+.head-list__element {
+	display: inline;
+}
+
+#logo {
+	width: 20vw;
+}
