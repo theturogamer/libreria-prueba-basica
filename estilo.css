@@ -1,40 +1,36 @@
-#title {
-	display: inline-block;
-	background-color: #aaa;
-	padding: 0.35em;
-	height: 3em;
-	width: 7em;
-	box-sizing: border-box;
-	text-align: center;
-	border-radius: 0.7em;
-	box-shadow: 4px 4px 20px 0 #397;
+#LOGO{
+	margin: 0.6vw 0px 0px 1.35vw;
+	height: 11vw;
+	width: 12vw;
 }
-
-#maps {
-	width: 20em;
-	height: 25em;
+#header{
+	position: fixed;
 }
-
-.head-list{
+.article_1{
+	margin-top: 360px;
+}
+.inline{
 	display: inline-block;
 }
-
-* {
-	font-size: 0.98em;
+[position_abs="0"]{
+	position: absolute;
 }
-.head-list__element {
-	background-color: #ccc;
-	display: inline-block;
-	border: 0.1em solid #888;
-	border-radius: 0.5em;
-	margin: 0.2vw;
-	height: 1.8em;
-	padding: 0.2em 0.5em;
-	text-align: center;
+[align-c="0"]{
+	text-align:center;
 }
-
-#logo {
-	width: 25vw;
-	margin: 1em;
-	border-radius: 0.3em;
+nav{
+	margin-left: -0.7vw;
+	border: 0.2vw solid #aaa;
+	width: 101vw;
+	height: 13vw;
+	background-color: #9ce;
+	border-radius: 40px;
+}
+[buton="s"]{
+	width: 15vw;
+	padding: .9em;
+	background-color: #efd;
+	border: 0.4vw solid #aaa;
+	margin: 3.5vw 5px 5px 5px;
+	border-radius: 50px;
 }
