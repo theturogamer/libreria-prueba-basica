@@ -1,12 +1,7 @@
 #LOGO{
-	margin: 0.6vw 0px 0px 1.35vw;
-	height: 11vw;
-	width: 12vw;
-}
-#header{
-	position: fixed;
-	left: -1.1vw;
-	top: -0.67vw;
+	position: absolute;
+	margin: 0.5vw 0px 0.5vw 3vw;
+	height: 12vw;
 }
 aside{
 	z-index: -500;
@@ -36,13 +31,17 @@ nav{
 	height: 13vw;
 	background-color: #9ce;
 	border-radius: 40px;
+	position: fixed;
+	left: 0;
+	top: 0;
 }
 [buton="s"]{
 	width: 15vw;
-	padding: .9em;
+	height: 8vh;
+	padding: 1vw;
 	background-color: #efd;
 	border: 0.4vw solid #aaa;
-	margin: 3.5vw 5px 5px 5px;
+	margin: 0.5vw;
 	border-radius: 50px;
 }
 [buton_as="s"]{
