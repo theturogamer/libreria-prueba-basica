@@ -5,6 +5,18 @@
 }
 #header{
 	position: fixed;
+	left: -1.1vw;
+	top: -0.67vw;
+}
+aside{
+	z-index: -500;
+	position: absolute;
+	right: 0;
+	top: 28vh;
+	background-color: #9ce;
+	display: inline-block;
+	border-radius: 20px;
+	border: 0.4vw solid #888;
 }
 .article_1{
 	margin-top: 360px;
@@ -19,7 +31,6 @@
 	text-align:center;
 }
 nav{
-	margin-left: -0.7vw;
 	border: 0.2vw solid #aaa;
 	width: 101vw;
 	height: 13vw;
@@ -32,5 +43,13 @@ nav{
 	background-color: #efd;
 	border: 0.4vw solid #aaa;
 	margin: 3.5vw 5px 5px 5px;
+	border-radius: 50px;
+}
+[buton_as="s"]{
+	padding: 2.5vh 0.3vw 0 0.3vw;
+	width: 13.5vw;
+	height: 10vh;
+	background-color: #efd;
+	border: 0.4vw solid #aaa;
 	border-radius: 50px;
 }
