@@ -1,3 +1,4 @@
+/*
 #LOGO{
 	position: absolute;
 	margin: 0.5vw 0px 0.5vw 3vw;
@@ -51,4 +52,42 @@ nav{
 	background-color: #efd;
 	border: 0.4vw solid #aaa;
 	border-radius: 50px;
+}
+*/
+header{
+	display: inline-block;
+	height: 10vw;
+	width: 100vw;
+	background-color: red;
+}
+ul, li, a{
+	font-size: 2vw;
+	display: inline-block;
+}
+.button{
+	position: relative;
+	left: 0;
+	top: 0;
+	height: 4.2vw;
+	margin: 2.9vw 0.8vw;
+	padding: 0.75vw;
+	border-radius: 50px;
+	border: 0.4vw solid #000;
+	background-color: #2d5;
+}
+[a_header]{
+	position: relative;
+	bottom: 0.35vw;
+	text-decoration: none;
+	color: #fff;
+}
+#logo{
+	position: relative;
+	margin: 0 5vw;
+	width: 10vw;
+}
+#ulheader{
+	height: 10vw;
+	width: 80vw;
+	position: absolute;
 }
