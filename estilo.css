@@ -1,49 +1,45 @@
+*{
+	font-size: 1.8vw;
+}
 header{
-	position: sticky;
-	top: 0;
-	display: inline-block;
-	height: 10vw;
 	width: 100vw;
-	background-color: #5b5;
+	height: 6vw;
+	background-color: #0a0;
+	position: fixed;
 }
-[head]{
-	font-size: 2vw;
-	display: inline-block;
-}
-.button{
-	position: relative;
-	left: 0;
-	top: 0;
-	height: 4.2vw;
-	margin: 2.9vw 0.8vw;
-	padding: 0.75vw;
-	border-radius: 50px;
-	border: 0.4vw solid #060;
-	background-color: #090;
-}
-#presentador{
-	display: inline-block;
-	font-size: 10vw;
-	height: 50vh;
+nav{
+	height: 6vw;
 	width: 100vw;
-	margin: 25vh 0;
 }
-[frs_a]{
-	text-decoration: none;
+#LOGO{
+	display: inline-flex;
+	height: 6vw;
+	margin: 0 0 0 3.5vw ;
 }
-[a_header]{
-	position: relative;
-	bottom: 0.2vw;
-	text-decoration: none;
+ul,li{
+	display: inline-block;
+}
+.header__lia{
 	color: #fff;
+	text-decoration: none;
 }
-#logo{
-	position: relative;
-	margin: 0 5vw;
-	width: 10vw;
+.header__libutton{
+	background-color: #080;
+	padding: .2vw .5vw;
+	border: .25vw solid #131;
+	border-radius: 50px;
 }
-#ulheader{
-	height: 10vw;
-	width: 80vw;
+.header__ul{
+	display: inline-flex;
 	position: absolute;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 86.5vw;
+	height: 6vw;
+}
+.header__div-logo{
+	display: inline-block;
+	position: relative;
+	width: 13.5vw;
+	height: 6vw;
 }
