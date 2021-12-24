@@ -1,54 +1,49 @@
-#LOGO{
-	position: absolute;
-	margin: 0.5vw 0px 0.5vw 3vw;
-	height: 12vw;
-}
-aside{
-	z-index: -500;
-	position: absolute;
-	right: 0;
-	top: 28vh;
-	background-color: #9ce;
+header{
+	position: sticky;
+	top: 0;
 	display: inline-block;
-	border-radius: 20px;
-	border: 0.4vw solid #888;
+	height: 10vw;
+	width: 100vw;
+	background-color: #5b5;
 }
-.article_1{
-	margin-top: 360px;
-}
-.inline{
+[head]{
+	font-size: 2vw;
 	display: inline-block;
 }
-[position_abs="0"]{
-	position: absolute;
-}
-[align-c="0"]{
-	text-align:center;
-}
-nav{
-	border: 0.2vw solid #aaa;
-	width: 101vw;
-	height: 13vw;
-	background-color: #9ce;
-	border-radius: 40px;
-	position: fixed;
+.button{
+	position: relative;
 	left: 0;
 	top: 0;
-}
-[buton="s"]{
-	width: 15vw;
-	height: 8vh;
-	padding: 1vw;
-	background-color: #efd;
-	border: 0.4vw solid #aaa;
-	margin: 0.5vw;
+	height: 4.2vw;
+	margin: 2.9vw 0.8vw;
+	padding: 0.75vw;
 	border-radius: 50px;
+	border: 0.4vw solid #060;
+	background-color: #090;
 }
-[buton_as="s"]{
-	padding: 2.5vh 0.3vw 0 0.3vw;
-	width: 13.5vw;
-	height: 10vh;
-	background-color: #efd;
-	border: 0.4vw solid #aaa;
-	border-radius: 50px;
+#presentador{
+	display: inline-block;
+	font-size: 10vw;
+	height: 50vh;
+	width: 100vw;
+	margin: 25vh 0;
+}
+[frs_a]{
+	text-decoration: none;
+}
+[a_header]{
+	position: relative;
+	bottom: 0.2vw;
+	text-decoration: none;
+	color: #fff;
+}
+#logo{
+	position: relative;
+	margin: 0 5vw;
+	width: 10vw;
+}
+#ulheader{
+	height: 10vw;
+	width: 80vw;
+	position: absolute;
 }
