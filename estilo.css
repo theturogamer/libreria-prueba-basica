@@ -110,9 +110,9 @@ nav.mobnav{
 	transition-duration: var(--THb);
 }
 button{
-	font-size: 3vh; 
+	font-size: 3.5vh; 
 	width: 20vw;
-	height: 2vh;
+	height: 7vh;
 }
 .mobheader__div-logo{
 	display: inline-flex;

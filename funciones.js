@@ -45,13 +45,13 @@ function mobmenu () {
     estilo.setProperty("--THb","0.7s");
     estilo.setProperty("--BTdML","30vw");
     estilo.setProperty("--BTdMR","30vw");
-    estilo.setProperty("--BTdH","5vh");
+    estilo.setProperty("--BTdH","12vh");
     estilo.setProperty("--BTc","#080");
     estilo.setProperty("--BTbc","#353");
     estilo.setProperty("--Mw","80vw");
     estilo.setProperty("--Mh","100vh");
-    estilo.setProperty("--LOGOD","15vh");
-    estilo.setProperty("--MDh","15vh");
+    estilo.setProperty("--LOGOD","13.5vh");
+    estilo.setProperty("--MDh","13.5vh");
     estilo.setProperty("--MDb","#fff");
   }else{
     isMdys=false
